@@ -8,7 +8,7 @@ To write a Python program that checks whether a given number is a **palindrome**
 2. Assign the value of `num` to a temporary variable `temp`.
 3. Initialize a variable `rev` to 0 (used to store the reversed number).
 4. Use a `while` loop to reverse the digits:
-   - While `temp > 0`:
+   - While `temp > 0`: 
      - `rev = (10 * rev) + temp % 10`
      - `temp = temp // 10`
 5. After the loop, compare `rev` with `num`:
